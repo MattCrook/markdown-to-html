@@ -78,7 +78,7 @@ markdownElement.addEventListener("keyup", parse, false);
   let switchModeButton = document.getElementById("raw-switch"),
     status = switchModeButton.getElementsByTagName("span")[0];
   const updateStatus = () => {
-    status.innerText = rawMode ? "On" : "off";
+    status.innerText = rawMode ? "On" : "Off";
   };
   updateStatus();
   switchModeButton.addEventListener(
